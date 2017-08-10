@@ -1,0 +1,261 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#equipment {
+    height: 400px;
+}
+
+#about {
+    height: 425px;
+}
+
+#demos {
+    height: 500px;
+}
+
+#contact {
+    height: 500px;
+}
+
+#footer {
+    height: 60px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+.fourth-width {
+    width: 300px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 550px;
+    background: url('../img/background.jpg');
+    background-size: cover;
+}
+
+header h1 { 
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    color: #00cc44;
+    padding: 20px 0;
+}
+nav {
+    float: right; 
+    padding: 20px 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 40px; 
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 72px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+
+
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 15px 0;
+}
+
+#about h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+}
+#about p {
+    font-size: 21px;
+    color: #4f4d4d;
+    line-height: 42px;
+    padding-right: 50px;
+}
+
+/****** DEMOS ******/
+
+#demos {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+#demos .full-width {
+    padding: 10px 0;
+}
+
+#demos h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    text-align: left;
+    padding: 2px 0;
+}
+
+#demos h3 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#demos img {
+    width: 210px;
+    height: 260px;
+    align: center;
+}
+
+#demos ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#demos p {
+    font-family: inherit;
+    font-size: 18px;
+    text-align: center;
+}
+    
+
+/****** EQUIPMENT ******/
+
+#equipment {
+    background-color: #93af95;
+    text-align: center;
+}
+
+#equipment .full-width {
+    padding: 15px 0;
+}
+
+#equipment h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    text-align: left;
+}
+
+#equipment img {
+    padding-bottom: 30px;
+}
+
+#equipment h3 {
+    font-size: 24px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#equipment p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2b2b2b;
+    padding: 0 35px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 50px 0;
+}
+#brettpic{
+    display: block;
+    border: 12px solid #ffffff;
+    margin: auto;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    text-align: left;
+}
+
+#email-header{
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0px 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #00cc44;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+#equipment p {
+    float: left;
+}
+
+/****** FOOTER ******/
+
+#footer {
+    background-color: #ebebeb;
+    display: none;
+}
+
+#footer .full-width {
+    padding: 20px 0;
+}
+
+#footer div {
+    background-color: inherit;
+}
+
+#footer p {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
